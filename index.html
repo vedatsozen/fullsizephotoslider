@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SLIDER</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    
+<div id="container">
+
+<div id="slider">
+    <div id="bir">
+        <h1>CITY 1</h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut varius ac ex ut ultrices. Integer sed facilisis magna, pellentesque tempus mi.
+        </p>
+    </div>
+    <div id="iki">
+        <h1>CITY 2</h1>
+        <p>
+            Aliquam erat volutpat. Sed in mauris ut lorem ullamcorper aliquet eu eget mauris. 
+        </p>
+    </div>
+    <div id="uc">
+        <h1>CITY 3</h1>
+        <p>
+            Sed gravida ligula non varius accumsan. Nullam porta varius libero, in mollis odio accumsan vel.
+        </p>
+    </div>
+    <div id="dort">
+        <h1>CITY 4</h1>
+        <p>
+            Ut et nisl eu urna varius suscipit. Lorem ipsum dolor sit amet,
+        </p>
+    </div>
+    <div id="bes">
+        <h1>CITY 5</h1>
+        <p>
+            Vivamus et pretium mauris. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae
+        </p>
+    </div>
+</div>
+
+</div>
+
+<div id="buttons">
+<button id="btnbir">1</button>
+<button id="btniki">2</button>
+<button id="btnuc">3</button>
+<button id="btndort">4</button>
+<button id="btnbes">5</button>
+</div>
+
+</body>
+
+<script>
+
+$(document).ready(function() {
+$("#btnbir").click(function() {
+    $("#slider").animate({"margin-left":"0px"},1000)
+})
+
+$("#btniki").click(function() {
+$("#slider").animate({"margin-left":"-100vw"},1000)
+})
+
+$("#btnuc").click(function() {
+$("#slider").animate({"margin-left":"-200vw"},1000)
+})
+
+$("#btndort").click(function() {
+$("#slider").animate({"margin-left":"-300vw"},1000)
+})
+
+$("#btnbes").click(function() {
+$("#slider").animate({"margin-left":"-400vw"},1000)
+})
+
+})
+
+</script>
+</html>
