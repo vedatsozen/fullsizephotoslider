@@ -30,7 +30,6 @@ body {
 #slider > div {
     height:var(--yukseklik);
     width:var(--genislik);
-    background-color: red;
     color: white;
     border:1px solid white;
   
